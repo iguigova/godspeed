@@ -1,0 +1,6 @@
+in REPL:
+        (use 'midje.repl)
+        (autotest)
+
+
+lein.bat ring server
