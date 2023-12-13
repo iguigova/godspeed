@@ -8,7 +8,7 @@
 
 (defroutes app-routes
   ;;(GET "/" [] "Hello World")            
-  (GET "/api/forecast" [code] (response (search-forecast code)))
+  (GET "/api/forecast" [code] (response (ca-forecast code)))
   (route/not-found "Not Found"))
 
 (def app ( ->
